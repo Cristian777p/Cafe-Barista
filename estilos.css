@@ -67,3 +67,30 @@ footer {
         flex-direction: column;
     }
 }
+
+#promociones {
+    margin-top: 40px;
+}
+
+.promociones {
+    display: flex;
+    gap: 20px;
+}
+
+.promo {
+    flex: 1;
+    background: #fff3cd;
+    border: 1px solid #d6b656;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.promo h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 700px) {
+    .promociones {
+        flex-direction: column;
+    }
+}
