@@ -105,3 +105,19 @@ footer {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
+
+header {
+    background: linear-gradient(135deg, #4e342e, #795548);
+}
+
+nav a:hover {
+    color: #ffd180;
+}
+
+h1 {
+    letter-spacing: 2px;
+}
+
+footer {
+    border-top: 3px solid #8d6e63;
+}
